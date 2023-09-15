@@ -1,0 +1,14 @@
+<odoo>
+<data>
+    <record id="view_analytic_account_line_date_finish" model="ir.ui.view">
+    <field name="name">View analytic account line date finish</field>
+    <field name="model">helpdesk.ticket</field>
+    <field name="inherit_id" ref="helpdesk_mgmt_timesheet.timesheet_helpdesk_ticket_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//page[@name='timesheets']/field[@name='timesheet_ids']/tree/field[@name='name']" position="before">
+                <field name="date_time_finish"/>
+            </xpath>
+        </field>
+    </record>
+</data>
+</odoo>
