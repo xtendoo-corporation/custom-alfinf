@@ -23,4 +23,4 @@ msgstr "Línea analítica"
 #. module: account_analytic_line_date_finish
 #: model:ir.model.fields,field_description:account_analytic_line_date_finish.field_account_analytic_line__date_time_finish
 msgid "Date Time Finish"
-msgstr "Fecha y hora de finalización"
+msgstr "Fecha finalización"
