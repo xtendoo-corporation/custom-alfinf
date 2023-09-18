@@ -9,9 +9,11 @@
     'depends': [
         'helpdesk_mgmt',
         'helpdesk_mgmt_timesheet',
+        'project',
     ],
     'data': [
         'views/helpdesk_ticket_view.xml',
+        'views/project_task_form_view.xml',
     ],
     'application': True,
 }
