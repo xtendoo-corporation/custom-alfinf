@@ -4,8 +4,8 @@
 from odoo import fields, models
 
 
-class ProjectTask(models.Model):
-    _inherit = 'project.task'
+class ProjectTaskLine(models.Model):
+    _inherit = 'project.task.line'
 
     date_time_finish = fields.Datetime(
         string='Date Time Finish',
