@@ -1,14 +1,14 @@
 <odoo>
-<data>
-    <record id="view_project_task_form_view_finish" model="ir.ui.view">
-    <field name="name">View project task form date finish</field>
-    <field name="model">project.task</field>
-    <field name="inherit_id" ref="hr_timesheet.view_task_form2_inherited"/>
-        <field name="arch" type="xml">
-            <xpath expr="//field[@name='timesheet_ids']/tree/field[@name='date']" position="after">
-                <field name="date_time_finish"/>
-            </xpath>
-        </field>
-    </record>
-</data>
+    <data>
+        <record id="view_project_task_form_view_finish" model="ir.ui.view">
+            <field name="name">View project task form date finish</field>
+            <field name="model">project.task</field>
+            <field name="inherit_id" ref="hr_timesheet.view_task_form2_inherited"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='timesheet_ids']/tree/field[@name='date_time']" position="after">
+                    <field name="date_time_finish"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
 </odoo>
