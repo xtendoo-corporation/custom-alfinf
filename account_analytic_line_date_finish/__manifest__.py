@@ -14,6 +14,7 @@
     'data': [
         'views/helpdesk_ticket_view.xml',
         'views/project_task_form_view.xml',
+        'views/account_analytic_line_view.xml',
     ],
     'application': True,
 }
